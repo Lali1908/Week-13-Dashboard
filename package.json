@@ -1,0 +1,31 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.10.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "chart.js": "^4.5.1",
+    "mariadb": "^3.5.4",
+    "mysql2": "^3.24.1",
+    "next": "16.3.2",
+    "react": "19.2.8",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "19.2.8",
+    "recharts": "^3.10.1",
+    "sweetalert2": "^11.26.25"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.19.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.2",
+    "prisma": "^6.19.3"
+  }
+}
